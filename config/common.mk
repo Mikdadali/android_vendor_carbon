@@ -70,6 +70,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # SELinux Policy
 -include vendor/carbon/sepolicy/sepolicy.mk
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Themes and Theme overlays
 include vendor/themes/themes.mk
 
